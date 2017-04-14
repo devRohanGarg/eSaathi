@@ -1,4 +1,4 @@
-<com.example.xyzreader.ui.DrawInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.esaathi.utils.DrawInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.xyzreader.ui.ObservableScrollView
+    <com.esaathi.utils.ObservableScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -35,7 +35,7 @@
 
             </FrameLayout>
 
-            <com.example.xyzreader.ui.MaxWidthLinearLayout
+            <com.esaathi.utils.MaxWidthLinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -91,9 +91,9 @@
                     android:textColorLink="?attr/colorAccent"
                     android:textSize="@dimen/detail_body_text_size" />
 
-            </com.example.xyzreader.ui.MaxWidthLinearLayout>
+            </com.esaathi.utils.MaxWidthLinearLayout>
         </FrameLayout>
-    </com.example.xyzreader.ui.ObservableScrollView>
+    </com.esaathi.utils.ObservableScrollView>
 
     <com.melnykov.fab.FloatingActionButton
         android:id="@+id/share_fab"
@@ -116,4 +116,4 @@
         fab:layout_anchorGravity="bottom|end"
         tools:ignore="UnusedAttribute" />
 
-</com.example.xyzreader.ui.DrawInsetsFrameLayout>
+</com.esaathi.utils.DrawInsetsFrameLayout>
