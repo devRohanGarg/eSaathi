@@ -52,6 +52,9 @@
             android:exported="false" />
 
         <activity android:name=".ui.ArticleListActivity" />
+        <activity
+            android:name=".ui.AgeGroupActivity"
+            android:theme="@style/Theme.Transparent" />
     </application>
 
 </manifest>
