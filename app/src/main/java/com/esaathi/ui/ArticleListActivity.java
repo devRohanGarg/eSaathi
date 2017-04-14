@@ -30,6 +30,8 @@ import com.esaathi.R;
 import com.esaathi.data.ArticleLoader;
 import com.esaathi.data.ItemsContract;
 import com.esaathi.data.UpdaterService;
+import com.esaathi.utils.DynamicHeightNetworkImageView;
+import com.esaathi.utils.ImageLoaderHelper;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

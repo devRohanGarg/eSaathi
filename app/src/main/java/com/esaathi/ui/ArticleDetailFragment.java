@@ -29,6 +29,8 @@ import com.android.volley.toolbox.ImageLoader;
 import com.esaathi.R;
 import com.esaathi.data.ArticleLoader;
 import com.esaathi.utils.DrawInsetsFrameLayout;
+import com.esaathi.utils.DynamicHeightNetworkImageView;
+import com.esaathi.utils.ImageLoaderHelper;
 import com.esaathi.utils.ObservableScrollView;
 import com.melnykov.fab.FloatingActionButton;
 
