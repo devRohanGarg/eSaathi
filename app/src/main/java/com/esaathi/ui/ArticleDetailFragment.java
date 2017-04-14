@@ -26,8 +26,10 @@ import android.widget.TextView;
 
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
-import com.example.xyzreader.R;
-import com.example.xyzreader.data.ArticleLoader;
+import com.esaathi.R;
+import com.esaathi.data.ArticleLoader;
+import com.esaathi.utils.DrawInsetsFrameLayout;
+import com.esaathi.utils.ObservableScrollView;
 import com.melnykov.fab.FloatingActionButton;
 
 import java.text.ParseException;

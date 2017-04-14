@@ -17,9 +17,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowInsets;
 
-import com.example.xyzreader.R;
-import com.example.xyzreader.data.ArticleLoader;
-import com.example.xyzreader.data.ItemsContract;
+import com.esaathi.R;
+import com.esaathi.data.ArticleLoader;
+import com.esaathi.data.ItemsContract;
 
 /**
  * An activity representing a single Article detail screen, letting you swipe between articles.

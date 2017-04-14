@@ -27,9 +27,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.esaathi.R;
-import com.example.xyzreader.data.ArticleLoader;
-import com.example.xyzreader.data.ItemsContract;
-import com.example.xyzreader.data.UpdaterService;
+import com.esaathi.data.ArticleLoader;
+import com.esaathi.data.ItemsContract;
+import com.esaathi.data.UpdaterService;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
