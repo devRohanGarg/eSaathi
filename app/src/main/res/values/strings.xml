@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">"eSaathi"</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
 
-    <string name="welcome_message">Welcome to eSaathi!</string>
+    <string name="welcome_message">Welcome!</string>
 
     <string name="action_refresh">Refresh</string>
     <string name="action_settings">Settings</string>
