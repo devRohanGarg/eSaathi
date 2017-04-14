@@ -25,6 +25,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.ArticleDetailActivity"
+            android:parentActivityName=".ui.ArticleListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.esaathi.items" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.ArticleListActivity" />
+        </activity>
+
+        <service
+            android:name=".data.UpdaterService"
+            android:exported="false" />
+
+        <provider
+            android:name=".data.ItemsProvider"
+            android:authorities="com.esaathi"
+            android:exported="false" />
     </application>
 
 </manifest>
