@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!--<color name="ltgray">#ffe0e0e0</color>-->
+
+    <color name="primary">#232323</color>
+    <color name="primary_dark">#C32F2F</color>
+    <color name="primary_light">#D7CCC8</color>
+    <color name="accent">#F57C00</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="scrim">#D32F2F</color>
+
+    <color name="fab_normal">@color/accent</color>
+    <color name="fab_pressed">#F56C00</color>
+    <!-- Basic Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="offwhite">#ece8e1</color>
+    <color name="black">#000000</color>
+    <!--
+    Gray Colors: extension gray_XXX stand for rgb value
+    because in gray all of them are equal
+    -->
+    <color name="gray_215">#d7d4cc</color>
+    <color name="gray_189">#bdbdbd</color>
+    <color name="gray_167">#a7a7a7</color>
+    <color name="gray_79">#4f4f4f</color>
+    <color name="gray_46">#2e2e2e</color>
+    <color name="gray_40">#292929</color>
+    <color name="gray_35">#232323</color>
 </resources>
