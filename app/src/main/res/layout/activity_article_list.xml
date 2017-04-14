@@ -22,6 +22,13 @@
             app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
             app:titleEnabled="false">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:padding="8dp"
+                android:src="@drawable/logo" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="4dp"
@@ -33,15 +40,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:layout_gravity="bottom"
-                app:popupTheme="@style/AppTheme.PopupOverlay">
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="@string/app_name"
+                app:titleTextColor="@color/white">
 
             </android.support.v7.widget.Toolbar>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/logo" />
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
@@ -72,6 +76,7 @@
         android:layout_height="@dimen/bottom_navigation_view"
         android:layout_gravity="bottom"
         android:background="@color/gray_215"
+        android:visibility="gone"
         app:menu="@menu/navigation" />
 
 </android.support.design.widget.CoordinatorLayout>
