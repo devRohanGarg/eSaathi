@@ -13,5 +13,11 @@
     <string name="up">Up</string>
     <string name="children">For children</string>
     <string name="adult">For adults</string>
+    <string name="art">Art and Craft</string>
+    <string name="embroidery">Embroidery</string>
+    <string name="organic_farming">Organic Farming</string>
+    <string name="pottery">Pottery</string>
+    <string name="pickle">Pickle</string>
+    <string name="tayloring">Tayloring</string>
 
 </resources>

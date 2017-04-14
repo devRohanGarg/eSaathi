@@ -8,4 +8,10 @@
     <string name="up">वापस</string>
     <string name="children">बच्चों के लिए</string>
     <string name="adult">वयस्कों के लिए</string>
+    <string name="art">कला और शिल्प</string>
+    <string name="embroidery">कढ़ाई</string>
+    <string name="organic_farming">जैविक खेती</string>
+    <string name="pottery">मिट्टी के बर्तन</string>
+    <string name="pickle">अचार</string>
+    <string name="tayloring">टेलरिंग</string>
 </resources>
