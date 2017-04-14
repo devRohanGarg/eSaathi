@@ -80,6 +80,7 @@ public class UpdaterService extends IntentService {
                 //dateTime = dateFormatter.parseDateTime(object.getString("published_date"));
                 //values.put(ItemsContract.Items.PUBLISHED_DATE, dateTime.getMillis());
                 values.put(ItemsContract.Items.PUBLISHED_DATE, object.getString("published_date"));
+                values.put(ItemsContract.Items.VIDEO_ID, object.getString("videoId"));
                 cpo.add(ContentProviderOperation.newInsert(dirUri).withValues(values).build());
             }
 

@@ -46,6 +46,8 @@ public class ItemsContract {
          * Type: INTEGER NOT NULL DEFAULT 0
          */
         String PUBLISHED_DATE = "published_date";
+
+        String VIDEO_ID = "video_id";
     }
 
     public static class Items implements ItemsColumns {
