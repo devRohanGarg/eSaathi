@@ -11,5 +11,7 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+    <string name="children">For children</string>
+    <string name="adult">For adults</string>
 
 </resources>

@@ -55,6 +55,7 @@
         <activity
             android:name=".ui.AgeGroupActivity"
             android:theme="@style/Theme.Transparent" />
+        <activity android:name=".ui.CategoryActivity"></activity>
     </application>
 
 </manifest>

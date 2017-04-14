@@ -95,6 +95,14 @@ public class ArticleListActivity extends AppCompatActivity implements
     };
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(getApplicationContext(), AgeGroupActivity.class));
+        overridePendingTransition(R.anim.push_left_in, R.anim.push_right_out);
+        finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mRootView = LayoutInflater.from(this).inflate(R.layout.activity_article_list, (CoordinatorLayout) findViewById(R.id.root));

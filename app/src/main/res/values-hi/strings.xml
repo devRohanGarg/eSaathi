@@ -5,4 +5,7 @@
     <string name="action_settings">सेटिंग्स</string>
     <string name="action_share">दूसरों को बताओ</string>
     <string name="welcome_message">नमस्ते! आपका स्वागत है</string>
+    <string name="up">वापस</string>
+    <string name="children">बच्चों के लिए</string>
+    <string name="adult">वयस्कों के लिए</string>
 </resources>
