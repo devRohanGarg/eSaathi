@@ -69,9 +69,9 @@
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/bottom_navigation_view"
         android:layout_gravity="bottom"
-        android:background="?android:attr/windowBackground"
+        android:background="@color/gray_215"
         app:menu="@menu/navigation" />
 
 </android.support.design.widget.CoordinatorLayout>
