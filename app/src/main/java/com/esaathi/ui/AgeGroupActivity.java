@@ -23,19 +23,16 @@ public class AgeGroupActivity extends AppCompatActivity {
 
     public void Child(View view) {
         editor = sp.edit();
-        editor.putBoolean("isChild", true);
+        editor.putString("category", "children");
+        editor.apply();
         startActivity(new Intent(getApplicationContext(), ArticleListActivity.class));
         overridePendingTransition(R.anim.push_right_in, R.anim.push_left_out);
         finish();
-        editor.apply();
     }
 
     public void Adult(View view) {
-        editor = sp.edit();
-        editor.putBoolean("isAdult", true);
         startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
         overridePendingTransition(R.anim.push_right_in, R.anim.push_left_out);
         finish();
-        editor.apply();
     }
 }

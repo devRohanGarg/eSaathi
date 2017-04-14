@@ -253,7 +253,7 @@ public class ArticleListActivity extends AppCompatActivity implements
             String subTitle = DateUtils.getRelativeTimeSpanString(
                     publishedDate.getTime(), System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
                     DateUtils.FORMAT_ABBREV_ALL).toString()
-                    + " by "
+                    + " -- "
                     + mCursor.getString(ArticleLoader.Query.AUTHOR);
 
             holder.subtitleView.setText(subTitle);

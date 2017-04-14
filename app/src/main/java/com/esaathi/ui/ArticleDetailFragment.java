@@ -226,7 +226,7 @@ public class ArticleDetailFragment extends Fragment implements
                         DateUtils.getRelativeTimeSpanString(
                                 publishedDate.getTime(), System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
                                 DateUtils.FORMAT_ABBREV_ALL).toString()
-                                + " by <font color='#ffffff'>"
+                                + " -- <font color='#ffffff'>"
                                 + mCursor.getString(ArticleLoader.Query.AUTHOR)
                                 + "</font>", Html.FROM_HTML_MODE_LEGACY));
                 bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY), Html.FROM_HTML_MODE_LEGACY));
@@ -235,7 +235,7 @@ public class ArticleDetailFragment extends Fragment implements
                         DateUtils.getRelativeTimeSpanString(
                                 publishedDate.getTime(), System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
                                 DateUtils.FORMAT_ABBREV_ALL).toString()
-                                + " by <font color='#ffffff'>"
+                                + " -- <font color='#ffffff'>"
                                 + mCursor.getString(ArticleLoader.Query.AUTHOR)
                                 + "</font>"));
                 bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));

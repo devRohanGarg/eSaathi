@@ -5,10 +5,12 @@ import android.content.ContentProviderOperation;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.content.OperationApplicationException;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.RemoteException;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.esaathi.remote.RemoteEndpointUtil;
@@ -56,8 +58,10 @@ public class UpdaterService extends IntentService {
         // Delete all items
         cpo.add(ContentProviderOperation.newDelete(dirUri).build());
 
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
         try {
-            JSONArray array = RemoteEndpointUtil.fetchJsonArray();
+            JSONArray array = RemoteEndpointUtil.fetchJsonArray(sp.getString("category", ""));
             if (array == null) {
                 throw new JSONException("Invalid parsed item array");
             }

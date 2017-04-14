@@ -19,10 +19,12 @@ public class RemoteEndpointUtil {
     private RemoteEndpointUtil() {
     }
 
-    public static JSONArray fetchJsonArray() {
+    public static JSONArray fetchJsonArray(String ENDPOINT) {
         String itemsJson = null;
+        URL FINAL_URL;
         try {
-            itemsJson = fetchPlainText(Config.BASE_URL);
+            FINAL_URL = new URL(Config.BASE_URL + ENDPOINT);
+            itemsJson = fetchPlainText(FINAL_URL);
         } catch (IOException e) {
             Log.e(TAG, "Error fetching items JSON", e);
             return null;

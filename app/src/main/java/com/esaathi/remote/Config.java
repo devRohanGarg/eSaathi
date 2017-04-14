@@ -1,23 +1,12 @@
 package com.esaathi.remote;
 
-import android.util.Log;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-
 public class Config {
-    public static final URL BASE_URL;
+    public static final String YOUTUBE_API_KEY;
     private static final String TAG = "Config";
+    public static String BASE_URL;
 
     static {
-        URL url = null;
-        try {
-            url = new URL("https://go.udacity.com/xyz-reader-json");
-        } catch (MalformedURLException ignored) {
-            // TODO: throw a real error
-            Log.e(TAG, "Error creating an URL. Incorrect specification.", ignored);
-        }
-
-        BASE_URL = url;
+        BASE_URL = "http://galgotias.ga/eSaathi/";
+        YOUTUBE_API_KEY = "AIzaSyDYPZ98uUm49hXsI9-I5Dk7Aqc4GnRWWLQ";
     }
 }

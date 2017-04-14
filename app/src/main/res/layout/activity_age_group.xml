@@ -15,6 +15,7 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Child"
             card_view:cardCornerRadius="4dp"
             card_view:cardElevation="8dp"
             card_view:cardUseCompatPadding="true">
@@ -29,7 +30,6 @@
                     android:layout_width="128dp"
                     android:layout_height="128dp"
                     android:layout_gravity="center"
-                    android:onClick="Child"
                     android:src="@drawable/child" />
 
                 <TextView
@@ -48,6 +48,7 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Adult"
             card_view:cardCornerRadius="4dp"
             card_view:cardElevation="8dp"
             card_view:cardUseCompatPadding="true">
@@ -62,7 +63,6 @@
                     android:layout_width="128dp"
                     android:layout_height="128dp"
                     android:layout_gravity="center"
-                    android:onClick="Adult"
                     android:src="@drawable/adult" />
 
                 <TextView
