@@ -58,6 +58,7 @@
         <activity
             android:name=".ui.CategoryActivity"
             android:theme="@style/Theme.Transparent" />
+        <activity android:name=".ui.SellActivity"></activity>
     </application>
 
 </manifest>

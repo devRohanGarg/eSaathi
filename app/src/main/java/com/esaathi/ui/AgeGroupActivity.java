@@ -35,4 +35,10 @@ public class AgeGroupActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.push_right_in, R.anim.push_left_out);
         finish();
     }
+
+    public void Sell(View view) {
+        startActivity(new Intent(getApplicationContext(), SellActivity.class));
+        overridePendingTransition(R.anim.push_right_in, R.anim.push_left_out);
+        finish();
+    }
 }
