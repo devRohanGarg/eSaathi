@@ -34,7 +34,7 @@ public class SellActivity extends AppCompatActivity implements AdvancedWebView.L
 
     @Override
     public void onPageStarted(String url, Bitmap favicon) {
-        dialog = ProgressDialog.show(this, "", "Loading. Please wait...", true);
+        dialog = ProgressDialog.show(this, "", "कृपया प्रतीक्षा करें!...", true);
     }
 
     @Override
