@@ -104,7 +104,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="8dp"
-                    android:text="@string/adult"
+                    android:text="@string/sell"
                     android:textSize="@dimen/detail_body_text_size"
                     android:textStyle="bold" />
 
